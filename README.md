@@ -13,4 +13,6 @@ It's a calculator with hidden app facility.
 * No Notification
 * High-quality ui/ux
 * Immersive Reader & Secret Chat Inbox
+<br>
+Author-Maithili Angel
 
