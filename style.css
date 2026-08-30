@@ -6,9 +6,11 @@ h1 {
     font-family: sans-serif;
     font-weight:bold;
 }
+/*the home page background color code. */
 body{
     background-color: #3E3232;
 }
+/*navigation box design code. */
 #navigate {
     background-color:aliceblue;
     padding:5px;
@@ -22,6 +24,7 @@ a{
     margin: 200px;
     font-size: 20px;
 }
+/* addding elements in home page in process.*/
 #elements {
     color:bisque;
     background-color: #e2d4d4;
