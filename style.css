@@ -1,33 +1,84 @@
 h1 {
-    color:rgb(255, 251, 251);
-    background-color:#7E6363;
+    color: rgb(255, 251, 251);
+    background-color: #7E6363;
     text-align: center;
     font-size: 96px;
     font-family: sans-serif;
-    font-weight:bold;
+    font-weight: bold;
 }
-/*the home page background color code. */
-body{
+
+/* Home page background color */
+body {
     background-color: #3E3232;
+    margin: 0;
 }
-/*navigation box design code. */
+
+/* Navigation box design */
 #navigate {
-    background-color:aliceblue;
-    padding:5px;
-    font-weight:bold;
-    padding-left:250px;
-    
+    background-color: aliceblue;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 250px;
 }
-a{
-    text-decoration:none;
-    color:black;
-    margin: 200px;
+
+#navigate a {
+    text-decoration: none;
+    color: black;
+    margin-right: 150px;
     font-size: 20px;
 }
-/* addding elements in home page in process.*/
-#elements {
-    color:bisque;
-    background-color: #e2d4d4;
-    width: 100px;
-    height: 100px;
+
+/* Parent container to place login and wiki boxes side by side */
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Login box */
+.box {
+    background-color: hsla(0, 0%, 100%, 0.05);
+    width: 800px;
+    height: 600px;
+    border-radius: 8px;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Email input styling */
+input[type="email"] {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    margin: 30px;
+    width: 400px;
+}
+
+input[type="email"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Wikipedia box styling */
+.box-two {
+    width: 300px;
+    height: 600px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.box-two iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
