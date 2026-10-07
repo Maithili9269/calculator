@@ -15,5 +15,5 @@ It's a calculator with hidden app facility.
 * High-quality ui/ux
 * Immersive Reader & Secret Chat Inbox
 <br>
-Author-Maithili Angel
+Author-enshi
 
